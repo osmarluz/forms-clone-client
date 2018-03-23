@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { routing } from './../app.routing';
 import { FormsModule as CoreFormsModule } from '@angular/forms';
+import { ColorPickerModule } from 'ngx-color-picker';
 import { FormDetailsComponent } from './form-details/form-details.component';
 import { QuestionListComponent } from './question-list/question-list.component';
 import { FormQuestionComponent } from './form-question/form-question.component';
@@ -18,7 +19,8 @@ import { FormQuestionComponent } from './form-question/form-question.component';
     BrowserAnimationsModule,
     MaterializeModule.forRoot(),
     routing,
-    CoreFormsModule
+    CoreFormsModule,
+    ColorPickerModule
   ],
   exports: [
     FormListComponent
