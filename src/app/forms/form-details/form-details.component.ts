@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   templateUrl: './form-details.component.html',
   styleUrls: ['./form-details.component.css']
 })
-export class FormFormComponent implements OnInit {
+export class FormDetailsComponent implements OnInit {
 
   @Input() form: Form;
 
